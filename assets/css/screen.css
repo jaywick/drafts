@@ -27,7 +27,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monospace, sans-serif;
+    font-family: "Space Mono", monospace;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
@@ -305,7 +305,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-style: italic;
 }
 
 .mainheading h1.posttitle {
@@ -330,7 +330,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
+    font-family: "Space Mono", monospace;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -370,15 +370,6 @@ blockquote {
 .share ul {
     padding-left: 0;
     margin-left: 0;
-}
-
-.share ul li i.fa {
-    border: 1px solid #ddd;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
 }
 
 .svgIcon {
@@ -685,7 +676,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Space Mono", monospace;
 }
 
 .article-post .h1,
@@ -711,7 +702,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Space Mono", monospace;
     font-size: 1rem;
 }
 
@@ -731,16 +722,6 @@ img {
     margin-bottom: 0rem;
     color: #999;
     border-top: 1px solid #ddd;
-}
-
-.pointerup {
-    margin-bottom: -17px;
-    margin-left: 49%;
-    font-size: 30px;
-}
-
-.pointerup i.fa {
-    color: #eaeaea;
 }
 
 .bottompagination span.navigation i {
@@ -874,7 +855,7 @@ iframe {
     line-height: 1;
     padding: 2px 3px;
     width: 150px;
-    font-family: Arial;
+    font-family: "Space Mono", monospace;
     text-align: center;
     border-radius: 3px;
     transition: all .4s;

@@ -2,7 +2,7 @@
 layout: post
 author: bross
 categories: [ code ]
-hero: assets/images/code.jpeg
+image: assets/images/code.jpeg
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 title: 'Some coding stuff'
 ---
